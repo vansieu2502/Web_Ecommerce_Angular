@@ -1,0 +1,25 @@
+.hero__text {
+    position: relative;
+}
+
+.shop-now-btn {
+    position: absolute;
+    top: 200px; /* Di chuyển nút xuống 50px */
+    background-color: white; /* Màu nền trắng */
+    color: black; /* Chữ màu đen */
+    border: none; /* Xóa viền nếu có */
+    padding: 10px 20px; /* Khoảng cách bên trong nút */
+    text-transform: uppercase; /* Chữ in hoa */
+    font-weight: bold; /* Chữ đậm */
+    cursor: pointer; /* Con trỏ chuột thành tay chỉ khi hover */
+    transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển đổi */
+}
+
+.shop-now-btn:hover {
+    background-color: black; /* Đổi màu nền khi hover */
+    color: white; /* Đổi màu chữ khi hover */
+}
+/* .banner__pic img {
+    width: 100px;
+    height: 100px;
+} */
